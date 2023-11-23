@@ -1,0 +1,8 @@
+﻿{
+  "nameSpace": "IIS.Kursovaya6",
+  "className": "Состояния",
+  "enumObjects": {
+    "Работает": "",
+    "НеРаботает": ""
+  }
+}

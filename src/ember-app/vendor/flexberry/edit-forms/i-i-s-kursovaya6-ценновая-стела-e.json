@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Ценновая стела",
+  "name": "IISKursovaya6ЦенноваяСтелаE",
+  "className": "ЦенноваяСтелаE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya6-ценновая-стела",
+      "modelProjection": "ЦенноваяСтелаE"
+    }
+  ]
+}

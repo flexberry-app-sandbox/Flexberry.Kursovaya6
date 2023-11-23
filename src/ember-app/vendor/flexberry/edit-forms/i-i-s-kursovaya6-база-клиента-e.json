@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "База клиента",
+  "name": "IISKursovaya6БазаКлиентаE",
+  "className": "БазаКлиентаE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya6-база-клиента",
+      "modelProjection": "БазаКлиентаE"
+    }
+  ]
+}

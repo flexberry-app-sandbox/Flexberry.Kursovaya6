@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursovaya6-ценновая-стела-e",
+  "editForm": "i-i-s-kursovaya6-ценновая-стела-e",
+  "external": false,
+  "caption": "Ценновая стела",
+  "name": "IISKursovaya6ЦенноваяСтелаL",
+  "className": "ЦенноваяСтелаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya6-ценновая-стела",
+      "modelProjection": "ЦенноваяСтелаL"
+    }
+  ]
+}

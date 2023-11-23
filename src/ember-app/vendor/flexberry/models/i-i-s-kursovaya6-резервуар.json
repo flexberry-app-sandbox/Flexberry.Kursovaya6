@@ -1,0 +1,148 @@
+﻿{
+  "name": "IISKursovaya6Резервуар",
+  "modelName": "i-i-s-kursovaya6-резервуар",
+  "className": "Резервуар",
+  "nameSpace": "IIS.Kursovaya6",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "idР",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "колвоТоп",
+      "type": "decimal",
+      "flexberryType": "double",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "состояние",
+      "type": "i-i-s-kursovaya6-состояния",
+      "flexberryType": "Состояния",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "остаток",
+      "relatedTo": "i-i-s-kursovaya6-остаток",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "РезервуарE",
+      "modelName": "i-i-s-kursovaya6-резервуар",
+      "attrs": [
+        {
+          "name": "колвоТоп",
+          "caption": "Колво топ",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "состояние",
+          "caption": "Состояние",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "idР",
+          "caption": "Id Р",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Номер",
+          "lookupValueField": "номер",
+          "relationName": "Остаток",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "номер",
+              "caption": "Номер",
+              "hidden": true,
+              "index": 4
+            }
+          ],
+          "index": 3,
+          "type": "standard",
+          "caption": "Остаток",
+          "name": "остаток",
+          "relatedTo": "i-i-s-kursovaya6-остаток",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "РезервуарL",
+      "modelName": "i-i-s-kursovaya6-резервуар",
+      "attrs": [
+        {
+          "name": "колвоТоп",
+          "caption": "Колво топ",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "состояние",
+          "caption": "Состояние",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "idР",
+          "caption": "Id Р",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Остаток",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "номер",
+              "caption": "Номер",
+              "hidden": false,
+              "index": 3
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Номер",
+          "name": "остаток",
+          "relatedTo": "i-i-s-kursovaya6-остаток",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

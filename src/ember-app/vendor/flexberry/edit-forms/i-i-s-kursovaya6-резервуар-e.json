@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Остаток",
+      "projection": "ОстатокL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Резервуар",
+  "name": "IISKursovaya6РезервуарE",
+  "className": "РезервуарE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya6-резервуар",
+      "modelProjection": "РезервуарE"
+    }
+  ]
+}

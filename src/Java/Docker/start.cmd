@@ -1,0 +1,1 @@
+docker-compose -p kursovaya6-java up -d
